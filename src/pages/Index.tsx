@@ -34,22 +34,26 @@ const Index = () => {
     return () => document.removeEventListener('click', handleAnchorClick);
   }, []);
 
-  // Implement animations on scroll
+  // Enhanced animations on scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-fade-in-up');
+            entry.target.classList.add('opacity-100');
             observer.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
     );
 
     const animateElements = document.querySelectorAll('.js-animate');
-    animateElements.forEach((el) => observer.observe(el));
+    animateElements.forEach((el) => {
+      el.classList.add('opacity-0');
+      observer.observe(el);
+    });
 
     return () => {
       animateElements.forEach((el) => observer.unobserve(el));
@@ -57,16 +61,23 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background overflow-hidden">
-      <Navbar />
-      <Hero />
-      <Features />
-      <HowItWorks />
-      <Services />
-      <Testimonials />
-      <FAQ />
-      <CTA />
-      <Footer />
+    <div className="min-h-screen bg-gray-950 text-white overflow-hidden">
+      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-purple-600/10 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-1/3 left-0 w-1/2 h-1/2 bg-blue-600/10 rounded-full blur-3xl transform -translate-x-1/2"></div>
+        <div className="absolute bottom-0 right-1/4 w-1/3 h-1/3 bg-cyan-600/10 rounded-full blur-3xl"></div>
+      </div>
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <Features />
+        <HowItWorks />
+        <Services />
+        <Testimonials />
+        <FAQ />
+        <CTA />
+        <Footer />
+      </div>
     </div>
   );
 };
