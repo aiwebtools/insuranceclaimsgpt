@@ -38,8 +38,8 @@ const Features = () => {
   return (
     <section id="features" className="section-padding bg-insurance-50">
       <div className="container mx-auto px-4 md:px-6">
-        {/* YouTube Video Section */}
-        <div className="mb-16 w-full max-w-4xl mx-auto animate-fade-in-up">
+        {/* YouTube Video Section with Dark Theme */}
+        <div className="mb-16 w-full max-w-4xl mx-auto animate-fade-in-up bg-gray-900 p-6 rounded-2xl shadow-xl">
           <div className="relative pb-[56.25%] h-0 rounded-xl overflow-hidden shadow-lg">
             <iframe 
               className="absolute top-0 left-0 w-full h-full"
@@ -50,7 +50,7 @@ const Features = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="mt-4 text-center text-insurance-700 text-lg font-medium">
+          <div className="mt-4 text-center text-gray-300 text-lg font-medium">
             Watch how Insurance Claims GPT simplifies your claim process
           </div>
         </div>
