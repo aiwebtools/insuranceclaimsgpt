@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Shield } from 'lucide-react';
 
 interface FloatingBubbleProps {
   text: string;
@@ -31,6 +31,7 @@ const FloatingBubble = ({ text, url }: FloatingBubbleProps) => {
         rel="noopener noreferrer"
         className="flex items-center gap-1 sm:gap-2 bg-gradient-to-br from-purple-600 to-fuchsia-600 text-white px-3 py-2 sm:px-5 sm:py-3 rounded-full shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:scale-105 hover:translate-y-[-5px] animate-pulse-subtle"
       >
+        <Shield className="h-3 w-3 sm:h-4 sm:w-4" />
         <span className="text-xs sm:text-sm font-medium">{text}</span>
         <ExternalLink className="h-3 w-3 sm:h-4 sm:w-4" />
       </a>
