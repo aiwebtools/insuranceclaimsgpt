@@ -80,9 +80,15 @@ const Services = () => {
                   ))}
                 </ul>
                 
-                <Button className="w-full bg-insurance-600 hover:bg-insurance-700 text-white">
-                  {service.cta}
-                </Button>
+                <a 
+                  href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Button className="w-full bg-insurance-600 hover:bg-insurance-700 text-white">
+                    {service.cta}
+                  </Button>
+                </a>
               </div>
             </div>
           ))}

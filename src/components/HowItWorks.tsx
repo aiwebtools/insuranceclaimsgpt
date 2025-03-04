@@ -61,9 +61,15 @@ const HowItWorks = () => {
         </div>
 
         <div className="max-w-2xl mx-auto text-center">
-          <Button className="button-primary text-base animate-fade-in-up [animation-delay:700ms]">
-            Start Your Claim Assessment
-          </Button>
+          <a 
+            href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button className="button-primary text-base animate-fade-in-up [animation-delay:700ms]">
+              Start Your Claim Assessment
+            </Button>
+          </a>
         </div>
       </div>
     </section>

@@ -1,4 +1,3 @@
-
 import { ArrowRight, FileImage, Search, Shield } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
@@ -32,9 +31,11 @@ const Hero = () => {
                   <ArrowRight className="h-5 w-5 ml-1" />
                 </Button>
               </a>
-              <Button className="bg-gray-800 hover:bg-gray-700 text-purple-300 text-base">
-                Learn More
-              </Button>
+              <a href="#how-it-works">
+                <Button className="bg-gray-800 hover:bg-gray-700 text-purple-300 text-base">
+                  Learn More
+                </Button>
+              </a>
             </div>
             
             <div className="flex items-center space-x-2 text-purple-400 text-sm animate-fade-in-up [animation-delay:400ms]">
@@ -97,9 +98,15 @@ const Hero = () => {
                   </div>
                 </div>
                 
-                <Button className="button-primary w-full text-base">
-                  Generate Claim Report
-                </Button>
+                <a 
+                  href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Button className="button-primary w-full text-base">
+                    Generate Claim Report
+                  </Button>
+                </a>
               </div>
             </div>
             
