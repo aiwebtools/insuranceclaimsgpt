@@ -24,9 +24,12 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
-          <a href="#" className="flex items-center space-x-2 transition-opacity hover:opacity-90">
-            <Shield className="h-7 w-7 text-purple-500" />
-            <span className="text-xl font-semibold text-purple-300">Insurance Claims GPT</span>
+          <a href="#" className="flex flex-col items-center transition-opacity hover:opacity-90">
+            <div className="flex items-center space-x-2">
+              <Shield className="h-7 w-7 text-purple-500" />
+              <span className="text-xl font-semibold text-purple-300">Insurance Claims GPT</span>
+            </div>
+            <span className="text-xs text-purple-400 mt-0.5">Presented by AiWebTools.Ai</span>
           </a>
 
           {/* Desktop Navigation */}
