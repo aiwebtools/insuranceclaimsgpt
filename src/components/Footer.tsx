@@ -1,4 +1,5 @@
-import { Instagram } from 'lucide-react';
+
+import { Instagram, Shield } from 'lucide-react';
 
 const TikTokIcon = ({ className }: { className?: string }) => (
   <svg 
