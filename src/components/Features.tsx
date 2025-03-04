@@ -38,6 +38,23 @@ const Features = () => {
   return (
     <section id="features" className="section-padding bg-insurance-50">
       <div className="container mx-auto px-4 md:px-6">
+        {/* YouTube Video Section */}
+        <div className="mb-16 w-full max-w-4xl mx-auto animate-fade-in-up">
+          <div className="relative pb-[56.25%] h-0 rounded-xl overflow-hidden shadow-lg">
+            <iframe 
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+              title="Insurance Claims GPT Demo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="mt-4 text-center text-insurance-700 text-lg font-medium">
+            Watch how Insurance Claims GPT simplifies your claim process
+          </div>
+        </div>
+
         <div className="max-w-3xl mx-auto mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-insurance-950 mb-4 animate-fade-in-up">
             Powerful Features for Accurate Claims
