@@ -8,42 +8,48 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row md:items-center md:space-x-12">
           <div className="md:w-1/2 space-y-6 pb-10 md:pb-0">
-            <div className="inline-flex items-center rounded-full bg-insurance-50 px-4 py-1.5 text-sm font-medium text-insurance-700 mb-4 animate-fade-in">
+            <div className="inline-flex items-center rounded-full bg-purple-950/50 px-4 py-1.5 text-sm font-medium text-purple-300 mb-4 animate-fade-in">
               <Shield className="mr-1 h-4 w-4" />
               <span>AI-Powered Insurance Claims Assistant</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-insurance-950 tracking-tight animate-fade-in-up [animation-delay:100ms]">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple-200 tracking-tight animate-fade-in-up [animation-delay:100ms]">
               Expert Insurance Claim Assessments
             </h1>
             
-            <p className="text-xl text-insurance-700 leading-relaxed max-w-xl animate-fade-in-up [animation-delay:200ms]">
+            <p className="text-xl text-purple-300 leading-relaxed max-w-xl animate-fade-in-up [animation-delay:200ms]">
               Get fair and accurate insurance claim valuations backed by AI-powered analysis, real-time pricing data, and professional reports.
             </p>
             
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-4 animate-fade-in-up [animation-delay:300ms]">
-              <Button className="button-primary text-base flex items-center justify-center space-x-2">
-                <span>Get Your Claim Estimate</span>
-                <ArrowRight className="h-5 w-5 ml-1" />
-              </Button>
-              <Button className="button-secondary text-base">
+              <a 
+                href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-700 hover:to-purple-700 text-white text-base flex items-center justify-center space-x-2">
+                  <span>Get Your Claim Estimate</span>
+                  <ArrowRight className="h-5 w-5 ml-1" />
+                </Button>
+              </a>
+              <Button className="bg-gray-800 hover:bg-gray-700 text-purple-300 text-base">
                 Learn More
               </Button>
             </div>
             
-            <div className="flex items-center space-x-2 text-insurance-600 text-sm animate-fade-in-up [animation-delay:400ms]">
+            <div className="flex items-center space-x-2 text-purple-400 text-sm animate-fade-in-up [animation-delay:400ms]">
               <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full bg-insurance-100 flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center">
                   <span className="text-xs font-medium">SD</span>
                 </div>
-                <div className="w-8 h-8 rounded-full bg-insurance-200 flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full bg-purple-700 flex items-center justify-center">
                   <span className="text-xs font-medium">JL</span>
                 </div>
-                <div className="w-8 h-8 rounded-full bg-insurance-300 flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center">
                   <span className="text-xs font-medium">KT</span>
                 </div>
               </div>
-              <p className="text-insurance-600">
+              <p className="text-purple-300">
                 <span className="font-medium">5,000+</span> claims processed this month
               </p>
             </div>
