@@ -1,3 +1,4 @@
+
 import { Facebook, Instagram, Linkedin, Shield, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -15,10 +16,15 @@ const Footer = () => {
             <p className="text-insurance-300 mb-2">
               AI-powered insurance claim assessments with unmatched accuracy and professionalism.
             </p>
-            <p className="text-insurance-400 mb-6">
+            <a 
+              href="https://www.aiwebtools.ai" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-insurance-400 hover:text-white transition-colors mb-6 inline-block"
+            >
               Presented by AiWebTools.Ai
-            </p>
-            <div className="flex space-x-4">
+            </a>
+            <div className="flex space-x-4 mt-4">
               <a href="#" className="text-insurance-400 hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>

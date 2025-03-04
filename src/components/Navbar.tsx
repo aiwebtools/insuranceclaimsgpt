@@ -24,13 +24,20 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
-          <a href="#" className="flex flex-col items-center transition-opacity hover:opacity-90">
+          <div className="flex flex-col items-center transition-opacity hover:opacity-90">
             <div className="flex items-center space-x-2">
               <Shield className="h-7 w-7 text-purple-500" />
               <span className="text-xl font-semibold text-purple-300">Insurance Claims GPT</span>
             </div>
-            <span className="text-xs text-purple-400 mt-0.5">Presented by AiWebTools.Ai</span>
-          </a>
+            <a 
+              href="https://www.aiwebtools.ai" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-xs text-purple-400 mt-0.5 hover:text-purple-300 transition-colors"
+            >
+              Presented by AiWebTools.Ai
+            </a>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
