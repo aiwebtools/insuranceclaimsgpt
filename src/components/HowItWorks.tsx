@@ -34,7 +34,7 @@ const HowItWorks = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-insurance-950 mb-4 animate-fade-in-up">
             How Insurance Claims GPT Works
           </h2>
-          <p className="text-lg text-insurance-700 animate-fade-in-up [animation-delay:100ms]">
+          <p className="text-lg text-white animate-fade-in-up [animation-delay:100ms]">
             Our simple 3-step process helps you get accurate insurance claim assessments in minutes, not days.
           </p>
         </div>
