@@ -13,8 +13,11 @@ const Footer = () => {
               <Shield className="h-6 w-6 text-insurance-400" />
               <span className="text-xl font-semibold text-white">Insurance Claims GPT</span>
             </div>
-            <p className="text-insurance-300 mb-6">
+            <p className="text-insurance-300 mb-2">
               AI-powered insurance claim assessments with unmatched accuracy and professionalism.
+            </p>
+            <p className="text-insurance-400 mb-6">
+              Presented by AiWebTools.Ai
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-insurance-400 hover:text-white transition-colors">
@@ -35,21 +38,21 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Auto Damage Claims</a></li>
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Property Damage Claims</a></li>
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Personal Injury Claims</a></li>
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Claim Report Generation</a></li>
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Insurance Negotiations</a></li>
+              <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Auto Damage Claims</a></li>
+              <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Property Damage Claims</a></li>
+              <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Personal Injury Claims</a></li>
+              <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Claim Report Generation</a></li>
+              <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Insurance Negotiations</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">How It Works</a></li>
+              <li><a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">More AI Tools</a></li>
+              <li><a href="#how-it-works" className="text-insurance-300 hover:text-white transition-colors">How It Works</a></li>
               <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Testimonials</a></li>
-              <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">FAQ</a></li>
+              <li><a href="#faq" className="text-insurance-300 hover:text-white transition-colors">FAQ</a></li>
               <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Contact Us</a></li>
             </ul>
           </div>

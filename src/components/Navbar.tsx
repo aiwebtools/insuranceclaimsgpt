@@ -34,7 +34,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-purple-300 hover:text-purple-400 transition-colors">Features</a>
+            <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 transition-colors">More AI Tools</a>
             <a href="#how-it-works" className="text-purple-300 hover:text-purple-400 transition-colors">How It Works</a>
             <a href="#services" className="text-purple-300 hover:text-purple-400 transition-colors">Services</a>
             <a href="#faq" className="text-purple-300 hover:text-purple-400 transition-colors">FAQ</a>
@@ -56,11 +56,13 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-gray-950 shadow-lg p-4 border-t border-gray-800 animate-fade-in-up">
           <nav className="flex flex-col space-y-4">
             <a 
-              href="#features" 
+              href="https://www.aiwebtools.ai" 
+              target="_blank" 
+              rel="noopener noreferrer" 
               className="text-purple-300 hover:text-purple-400 transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Features
+              More AI Tools
             </a>
             <a 
               href="#how-it-works" 
