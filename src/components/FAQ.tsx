@@ -36,10 +36,10 @@ const FAQ = () => {
     <section id="faq" className="section-padding">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto mb-16 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-insurance-950 mb-4 animate-fade-in-up">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 animate-fade-in-up">
             Frequently Asked Questions
           </h2>
-          <p className="text-lg text-insurance-700 animate-fade-in-up [animation-delay:100ms]">
+          <p className="text-lg text-white animate-fade-in-up [animation-delay:100ms]">
             Get answers to common questions about Insurance Claims GPT.
           </p>
         </div>
@@ -52,12 +52,12 @@ const FAQ = () => {
                 onClick={() => toggleFAQ(index)}
                 aria-expanded={openIndex === index}
               >
-                <h3 className="text-xl font-medium text-insurance-900">{faq.question}</h3>
+                <h3 className="text-xl font-medium text-white">{faq.question}</h3>
                 <div className="ml-4 flex-shrink-0">
                   {openIndex === index ? (
-                    <ChevronUp className="h-5 w-5 text-insurance-600" />
+                    <ChevronUp className="h-5 w-5 text-white" />
                   ) : (
-                    <ChevronDown className="h-5 w-5 text-insurance-600" />
+                    <ChevronDown className="h-5 w-5 text-white" />
                   )}
                 </div>
               </button>
@@ -67,7 +67,7 @@ const FAQ = () => {
                   openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                 }`}
               >
-                <p className="text-insurance-700">{faq.answer}</p>
+                <p className="text-white">{faq.answer}</p>
               </div>
             </div>
           ))}
