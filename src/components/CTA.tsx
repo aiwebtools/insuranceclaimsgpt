@@ -9,8 +9,8 @@ const CTA = () => {
         <div className="relative overflow-hidden rounded-2xl bg-gray-900 p-8 md:p-12 border border-purple-500/20 shadow-xl shadow-purple-500/10">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-purple-500"></div>
-            <div className="absolute top-40 right-10 h-40 w-40 rounded-full bg-blue-500"></div>
-            <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-cyan-500"></div>
+            <div className="absolute top-40 right-10 h-40 w-40 rounded-full bg-indigo-500"></div>
+            <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-fuchsia-500"></div>
           </div>
           
           <div className="animate-float relative max-w-3xl mx-auto text-center">
@@ -22,7 +22,7 @@ const CTA = () => {
               Ready to Get the Insurance Claim You Deserve?
             </h2>
             
-            <p className="text-xl text-purple-200 mb-8 animate-fade-in-up [animation-delay:200ms]">
+            <p className="text-xl text-violet-200 mb-8 animate-fade-in-up [animation-delay:200ms]">
               Don't settle for less. Let our AI-powered system help you get fair and accurate insurance claim assessments.
             </p>
             
@@ -32,7 +32,7 @@ const CTA = () => {
               rel="noopener noreferrer"
               className="inline-block"
             >
-              <Button className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 text-white px-8 py-6 text-lg font-medium rounded-full flex items-center mx-auto animate-scale-in shadow-lg shadow-purple-500/20 hover:shadow-purple-500/40 transition-all duration-300">
+              <Button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-700 hover:to-purple-700 text-white px-8 py-6 text-lg font-medium rounded-full flex items-center mx-auto animate-scale-in shadow-lg shadow-purple-500/20 hover:shadow-purple-500/40 transition-all duration-300">
                 <span>Start Your Claim Assessment</span>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
