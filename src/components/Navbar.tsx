@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Shield } from 'lucide-react';
+import { Menu, X, Shield, Car } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -44,7 +44,15 @@ const Navbar = () => {
             <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 transition-colors">More AI Tools</a>
             <a href="#how-it-works" className="text-purple-300 hover:text-purple-400 transition-colors">How It Works</a>
             <a href="#services" className="text-purple-300 hover:text-purple-400 transition-colors">Services</a>
-            <a href="#faq" className="text-purple-300 hover:text-purple-400 transition-colors">FAQ</a>
+            <a 
+              href="https://automobilegpt.lovable.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-purple-300 hover:text-purple-400 transition-colors flex items-center gap-1"
+            >
+              <Car className="h-4 w-4" />
+              Automobile GPT
+            </a>
             <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
           </nav>
 
@@ -86,11 +94,14 @@ const Navbar = () => {
               Services
             </a>
             <a 
-              href="#faq" 
-              className="text-purple-300 hover:text-purple-400 transition-colors py-2"
+              href="https://automobilegpt.lovable.app/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-purple-300 hover:text-purple-400 transition-colors py-2 flex items-center gap-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              FAQ
+              <Car className="h-4 w-4" />
+              Automobile GPT
             </a>
             <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full" onClick={() => setIsMenuOpen(false)}>
               Get Started

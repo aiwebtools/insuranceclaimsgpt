@@ -1,5 +1,5 @@
 
-import { Instagram, Shield } from 'lucide-react';
+import { Instagram, Shield, Car } from 'lucide-react';
 
 const TikTokIcon = ({ className }: { className?: string }) => (
   <svg 
@@ -70,6 +70,10 @@ const Footer = () => {
               <li><a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">More AI Tools</a></li>
               <li><a href="#how-it-works" className="text-insurance-300 hover:text-white transition-colors">How It Works</a></li>
               <li><a href="#testimonials" className="text-insurance-300 hover:text-white transition-colors">Testimonials</a></li>
+              <li><a href="https://automobilegpt.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors flex items-center gap-2">
+                <Car className="h-4 w-4" />
+                Automobile GPT
+              </a></li>
               <li><a href="#faq" className="text-insurance-300 hover:text-white transition-colors">FAQ</a></li>
               <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Contact Us</a></li>
             </ul>
