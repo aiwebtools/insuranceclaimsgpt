@@ -1,4 +1,3 @@
-
 import { Facebook, Instagram, Linkedin, Shield, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -84,13 +83,13 @@ const Footer = () => {
             © {currentYear} AI Web Tools LLC. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex flex-wrap gap-4 text-sm">
-            <a href="#" className="text-insurance-400 hover:text-white transition-colors">
+            <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-insurance-400 hover:text-white transition-colors">
+            <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="text-insurance-400 hover:text-white transition-colors">
+            <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
               Disclaimer
             </a>
           </div>
