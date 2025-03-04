@@ -60,9 +60,21 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-insurance-300">AI Web Tools LLC</li>
-              <li className="text-insurance-300">Email: support@ai-webtools.com</li>
-              <li className="text-insurance-300">Support: (475) 800-8096</li>
+              <li className="text-insurance-300">
+                <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">
+                  AI Web Tools LLC
+                </a>
+              </li>
+              <li className="text-insurance-300">
+                <a href="mailto:support@ai-webtools.com" className="text-insurance-300 hover:text-white transition-colors">
+                  Email: support@ai-webtools.com
+                </a>
+              </li>
+              <li className="text-insurance-300">
+                <a href="tel:+14758008096" className="text-insurance-300 hover:text-white transition-colors">
+                  Support: (475) 800-8096
+                </a>
+              </li>
             </ul>
           </div>
         </div>
