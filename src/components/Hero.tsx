@@ -1,3 +1,4 @@
+
 import { ArrowRight, FileImage, Search, Shield } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
@@ -102,6 +103,7 @@ const Hero = () => {
                   href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
                   target="_blank" 
                   rel="noopener noreferrer"
+                  className="w-full"
                 >
                   <Button className="button-primary w-full text-base">
                     Generate Claim Report
