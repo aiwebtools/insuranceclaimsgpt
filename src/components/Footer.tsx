@@ -1,5 +1,23 @@
+import { Instagram } from 'lucide-react';
 
-import { Facebook, Instagram, Linkedin, Shield, Twitter } from 'lucide-react';
+const TikTokIcon = ({ className }: { className?: string }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="24" 
+    height="24" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className={className}
+  >
+    <path d="M9 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+    <path d="M15 8h.01" />
+    <path d="M9 2h6v8.5l4-1v4l-4 1V20c0 .6-.4 1-1 1H9a5 5 0 0 1-5-5 5 5 0 0 1 5-5v-2.5C9 8 9 4.5 9 2z" />
+  </svg>
+);
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -25,17 +43,11 @@ const Footer = () => {
               Presented by AiWebTools.Ai
             </a>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-insurance-400 hover:text-white transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-insurance-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-insurance-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/aiwebtools" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-insurance-400 hover:text-white transition-colors">
-                <Linkedin className="h-5 w-5" />
+              <a href="https://www.tiktok.com/@aiwebtools" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
+                <TikTokIcon className="h-5 w-5" />
               </a>
             </div>
           </div>
