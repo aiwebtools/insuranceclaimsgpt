@@ -9,6 +9,7 @@ import FAQ from '../components/FAQ';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
 import FloatingBubble from '../components/FloatingBubble';
+import RecommendationCard from '../components/RecommendationCard';
 
 const Index = () => {
   // Implement smooth scrolling
@@ -76,6 +77,7 @@ const Index = () => {
         <Testimonials />
         <FAQ />
         <CTA />
+        <RecommendationCard />
         <Footer />
       </div>
       <FloatingBubble 
