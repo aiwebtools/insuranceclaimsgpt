@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
@@ -9,6 +8,7 @@ import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
+import FloatingBubble from '../components/FloatingBubble';
 
 const Index = () => {
   // Implement smooth scrolling
@@ -78,6 +78,10 @@ const Index = () => {
         <CTA />
         <Footer />
       </div>
+      <FloatingBubble 
+        text="Try Insurance Claims GPT" 
+        url="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
+      />
     </div>
   );
 };
