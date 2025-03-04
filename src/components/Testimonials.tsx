@@ -38,13 +38,13 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="section-padding bg-insurance-50">
+    <section className="section-padding bg-gray-900">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto mb-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-insurance-950 mb-4 animate-fade-in-up">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 animate-fade-in-up">
             What Our Users Say
           </h2>
-          <p className="text-lg text-insurance-700 animate-fade-in-up [animation-delay:100ms]">
+          <p className="text-lg text-gray-300 animate-fade-in-up [animation-delay:100ms]">
             Thousands of users trust Insurance Claims GPT for accurate and fair claim assessments.
           </p>
         </div>
@@ -57,19 +57,19 @@ const Testimonials = () => {
             >
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="min-w-full px-4">
-                  <div className="bg-white rounded-2xl shadow-sm p-8 md:p-10">
+                  <div className="bg-gray-800 rounded-2xl shadow-lg border border-gray-700 p-8 md:p-10">
                     <div className="flex items-center space-x-1 mb-6">
                       {[...Array(5)].map((_, i) => (
                         <Star
                           key={i}
                           className={`h-5 w-5 ${
-                            i < testimonial.rating ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'
+                            i < testimonial.rating ? 'text-yellow-400 fill-yellow-400' : 'text-gray-600'
                           }`}
                         />
                       ))}
                     </div>
                     
-                    <p className="text-lg text-insurance-700 mb-8">"{testimonial.text}"</p>
+                    <p className="text-lg text-gray-300 mb-8">"{testimonial.text}"</p>
                     
                     <div className="flex items-center">
                       <div className="mr-4 h-12 w-12 rounded-full overflow-hidden">
@@ -80,8 +80,8 @@ const Testimonials = () => {
                         />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-insurance-900">{testimonial.name}</h4>
-                        <p className="text-sm text-insurance-600">{testimonial.role}</p>
+                        <h4 className="font-semibold text-white">{testimonial.name}</h4>
+                        <p className="text-sm text-gray-400">{testimonial.role}</p>
                       </div>
                     </div>
                   </div>
@@ -92,7 +92,7 @@ const Testimonials = () => {
 
           <button
             onClick={goToPrevious}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-6 h-10 w-10 rounded-full bg-white shadow-md flex items-center justify-center text-insurance-700 hover:text-insurance-900 transition-colors focus:outline-none"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-6 h-10 w-10 rounded-full bg-gray-800 shadow-lg border border-gray-700 flex items-center justify-center text-gray-300 hover:text-white transition-colors focus:outline-none"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="h-6 w-6" />
@@ -100,7 +100,7 @@ const Testimonials = () => {
           
           <button
             onClick={goToNext}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-6 h-10 w-10 rounded-full bg-white shadow-md flex items-center justify-center text-insurance-700 hover:text-insurance-900 transition-colors focus:outline-none"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-6 h-10 w-10 rounded-full bg-gray-800 shadow-lg border border-gray-700 flex items-center justify-center text-gray-300 hover:text-white transition-colors focus:outline-none"
             aria-label="Next testimonial"
           >
             <ChevronRight className="h-6 w-6" />
@@ -112,7 +112,7 @@ const Testimonials = () => {
                 key={index}
                 onClick={() => setActiveIndex(index)}
                 className={`h-2.5 w-2.5 rounded-full transition-colors ${
-                  index === activeIndex ? 'bg-insurance-600' : 'bg-insurance-200'
+                  index === activeIndex ? 'bg-insurance-500' : 'bg-gray-700'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />
