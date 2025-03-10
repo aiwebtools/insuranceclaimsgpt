@@ -10,6 +10,7 @@ import CTA from '../components/CTA';
 import Footer from '../components/Footer';
 import FloatingBubble from '../components/FloatingBubble';
 import RecommendationCard from '../components/RecommendationCard';
+import DisclaimerPopup from '../components/DisclaimerPopup';
 
 const Index = () => {
   // Implement smooth scrolling
@@ -84,6 +85,7 @@ const Index = () => {
         text="Try Insurance Claims GPT" 
         url="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
       />
+      <DisclaimerPopup />
     </div>
   );
 };
