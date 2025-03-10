@@ -42,14 +42,33 @@ const Hero = () => {
             
             <div className="flex items-center space-x-2 text-purple-400 text-xs md:text-sm animate-fade-in-up [animation-delay:400ms]">
               <div className="flex -space-x-1 md:-space-x-2">
-                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-purple-800 flex items-center justify-center">
-                  <span className="text-xs font-medium">SD</span>
+                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
+                  <img 
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&w=256&q=80" 
+                    alt="User avatar" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-purple-700 flex items-center justify-center">
-                  <span className="text-xs font-medium">JL</span>
+                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
+                  <img 
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&w=256&q=80" 
+                    alt="User avatar" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-purple-600 flex items-center justify-center">
-                  <span className="text-xs font-medium">KT</span>
+                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
+                  <img 
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&w=256&q=80" 
+                    alt="User avatar" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
+                  <img 
+                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&w=256&q=80" 
+                    alt="User avatar" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <p className="text-purple-300 text-xs md:text-sm">
