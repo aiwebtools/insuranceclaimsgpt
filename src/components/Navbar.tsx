@@ -53,7 +53,13 @@ const Navbar = () => {
               <Car className="h-4 w-4" />
               Automobile GPT
             </a>
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
+            <a 
+              href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Toggle */}
@@ -103,9 +109,16 @@ const Navbar = () => {
               <Car className="h-4 w-4" />
               Automobile GPT
             </a>
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full" onClick={() => setIsMenuOpen(false)}>
-              Get Started
-            </Button>
+            <a 
+              href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt"
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full">
+                Get Started
+              </Button>
+            </a>
           </nav>
         </div>
       )}
