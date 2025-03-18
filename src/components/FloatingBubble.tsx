@@ -39,7 +39,7 @@ const FloatingBubble = () => {
     },
     {
       text: "Try Medical Billing & Coding GPT",
-      url: "https://chatgpt.com/g/g-67d9f1b2c9b881918c0fac1ca6ea38ea-medical-billing-coding-gpt",
+      url: "https://medicalbillinggpt.lovable.app/?via=aiwebtools",
       icon: <FileText className="h-3 w-3 sm:h-4 sm:w-4" />,
       color: "from-green-600 to-teal-600",
       delay: 300

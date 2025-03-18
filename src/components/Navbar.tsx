@@ -44,7 +44,7 @@ const Navbar = () => {
             <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 transition-colors">More AI Tools</a>
             <a href="#how-it-works" className="text-purple-300 hover:text-purple-400 transition-colors">How It Works</a>
             <a 
-              href="https://chatgpt.com/g/g-67d9f1b2c9b881918c0fac1ca6ea38ea-medical-billing-coding-gpt" 
+              href="https://medicalbillinggpt.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-purple-300 hover:text-purple-400 transition-colors flex items-center gap-1"
@@ -110,7 +110,7 @@ const Navbar = () => {
               How It Works
             </a>
             <a 
-              href="https://chatgpt.com/g/g-67d9f1b2c9b881918c0fac1ca6ea38ea-medical-billing-coding-gpt" 
+              href="https://medicalbillinggpt.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-purple-300 hover:text-purple-400 transition-colors py-2 flex items-center gap-2"

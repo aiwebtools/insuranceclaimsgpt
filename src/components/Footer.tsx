@@ -1,5 +1,5 @@
 
-import { Instagram, Shield, Car, Heart } from 'lucide-react';
+import { Instagram, Shield, Car, Heart, FileText } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const TikTokIcon = ({ className }: { className?: string }) => (
