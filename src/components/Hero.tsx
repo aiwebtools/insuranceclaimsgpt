@@ -1,4 +1,3 @@
-
 import { ArrowRight, FileImage, Search, Shield } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
@@ -10,7 +9,7 @@ const Hero = () => {
           <div className="md:w-1/2 space-y-5 md:space-y-6 pb-8 md:pb-0">
             <div className="inline-flex items-center rounded-full bg-purple-950/50 px-3 py-1 md:px-4 md:py-1.5 text-xs md:text-sm font-medium text-purple-300 mb-3 md:mb-4 animate-fade-in">
               <Shield className="mr-1 h-3 w-3 md:h-4 md:w-4" />
-              <span>AI-Powered Insurance Claims Assistant</span>
+              <span>AI-Powered Insurance Claims Tools Suite</span>
             </div>
             
             <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-purple-200 tracking-tight animate-fade-in-up [animation-delay:100ms]">
