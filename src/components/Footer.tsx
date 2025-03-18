@@ -60,7 +60,10 @@ const Footer = () => {
               <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Auto Damage Claims</a></li>
               <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Property Damage Claims</a></li>
               <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Personal Injury Claims</a></li>
-              <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Claim Report Generation</a></li>
+              <li><a href="https://medicalbillinggpt.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors flex items-center gap-2">
+                <FileText className="h-4 w-4" />
+                Medical Billing & Coding GPT
+              </a></li>
               <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Insurance Negotiations</a></li>
             </ul>
           </div>
@@ -78,6 +81,10 @@ const Footer = () => {
               <li><a href="https://healthinsurenceclaimsgpt.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors flex items-center gap-2">
                 <Heart className="h-4 w-4" />
                 Health Insurance GPT
+              </a></li>
+              <li><a href="https://medicalbillinggpt.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors flex items-center gap-2">
+                <FileText className="h-4 w-4" />
+                Medical Billing & Coding GPT
               </a></li>
               <li><a href="#faq" className="text-insurance-300 hover:text-white transition-colors">FAQ</a></li>
               <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Contact Us</a></li>
