@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Shield, Car } from 'lucide-react';
+import { Menu, X, Shield, Car, Heart } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -52,6 +52,15 @@ const Navbar = () => {
             >
               <Car className="h-4 w-4" />
               Automobile GPT
+            </a>
+            <a 
+              href="https://healthinsurenceclaimsgpt.lovable.app/?via=aiwebtools" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-purple-300 hover:text-purple-400 transition-colors flex items-center gap-1"
+            >
+              <Heart className="h-4 w-4" />
+              Health Insurance GPT
             </a>
             <a 
               href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt"
@@ -108,6 +117,16 @@ const Navbar = () => {
             >
               <Car className="h-4 w-4" />
               Automobile GPT
+            </a>
+            <a 
+              href="https://healthinsurenceclaimsgpt.lovable.app/?via=aiwebtools" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-purple-300 hover:text-purple-400 transition-colors py-2 flex items-center gap-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Heart className="h-4 w-4" />
+              Health Insurance GPT
             </a>
             <a 
               href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt"

@@ -1,5 +1,6 @@
 
-import { Instagram, Shield, Car } from 'lucide-react';
+import { Instagram, Shield, Car, Heart } from 'lucide-react';
+import { Button } from "@/components/ui/button";
 
 const TikTokIcon = ({ className }: { className?: string }) => (
   <svg 
@@ -74,6 +75,10 @@ const Footer = () => {
                 <Car className="h-4 w-4" />
                 Automobile GPT
               </a></li>
+              <li><a href="https://healthinsurenceclaimsgpt.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors flex items-center gap-2">
+                <Heart className="h-4 w-4" />
+                Health Insurance GPT
+              </a></li>
               <li><a href="#faq" className="text-insurance-300 hover:text-white transition-colors">FAQ</a></li>
               <li><a href="#" className="text-insurance-300 hover:text-white transition-colors">Contact Us</a></li>
             </ul>
@@ -98,6 +103,18 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+            <div className="mt-4">
+              <a 
+                href="https://healthinsurenceclaimsgpt.lovable.app/?via=aiwebtools" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-purple-600 hover:bg-purple-700 text-white mt-2 flex items-center gap-2">
+                  <Heart className="h-4 w-4" />
+                  Health Insurance GPT
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
 
