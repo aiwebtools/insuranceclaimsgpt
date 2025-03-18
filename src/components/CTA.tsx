@@ -33,7 +33,7 @@ const CTA = () => {
               className="inline-block"
             >
               <Button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-700 hover:to-purple-700 text-white px-8 py-6 text-lg font-medium rounded-full flex items-center mx-auto animate-scale-in shadow-lg shadow-purple-500/20 hover:shadow-purple-500/40 transition-all duration-300">
-                <span>Start Your Claim Assessment</span>
+                <span>Start Your Damage Claim Assessment</span>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </a>

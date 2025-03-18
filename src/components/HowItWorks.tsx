@@ -67,7 +67,7 @@ const HowItWorks = () => {
             rel="noopener noreferrer"
           >
             <Button className="button-primary text-base animate-fade-in-up [animation-delay:700ms]">
-              Start Your Claim Assessment
+              Start Your Damage Claim Assessment
             </Button>
           </a>
         </div>
