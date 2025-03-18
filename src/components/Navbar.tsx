@@ -75,7 +75,7 @@ const Navbar = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white">Insurance Claims GPT</Button>
+              <Button className="bg-purple-600 hover:bg-purple-700 text-white">Damage Assessment Insurance Claims GPT</Button>
             </a>
           </nav>
 
@@ -146,7 +146,7 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full">
-                Insurance Claims GPT
+                Damage Assessment Insurance Claims GPT
               </Button>
             </a>
           </nav>
