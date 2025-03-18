@@ -29,7 +29,7 @@ const Hero = () => {
                 className="w-full sm:w-auto"
               >
                 <Button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-700 hover:to-purple-700 text-white text-sm md:text-base w-full sm:w-auto flex items-center justify-center space-x-2">
-                  <span>Get Your Claim Estimate</span>
+                  <span>Get Your Damage Claim Estimate</span>
                   <ArrowRight className="h-4 w-4 md:h-5 md:w-5 ml-1" />
                 </Button>
               </a>
