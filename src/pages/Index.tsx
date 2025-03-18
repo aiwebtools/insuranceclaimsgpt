@@ -81,10 +81,7 @@ const Index = () => {
         <RecommendationCard />
         <Footer />
       </div>
-      <FloatingBubble 
-        text="Try Insurance Claims GPT" 
-        url="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" 
-      />
+      <FloatingBubble />
       <DisclaimerPopup />
     </div>
   );
