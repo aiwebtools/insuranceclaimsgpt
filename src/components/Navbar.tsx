@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="flex flex-col items-center transition-opacity hover:opacity-90">
             <div className="flex items-center space-x-2">
               <Shield className="h-7 w-7 text-purple-500" />
-              <span className="text-xl font-semibold text-purple-300">Insurance Claims GPT</span>
+              <span className="text-xl font-semibold text-purple-300">Auto Insurance Claims GPT</span>
             </div>
             <a 
               href="https://www.aiwebtools.ai" 

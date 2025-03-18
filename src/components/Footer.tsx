@@ -30,7 +30,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Shield className="h-6 w-6 text-insurance-400" />
-              <span className="text-xl font-semibold text-white">Insurance Claims GPT</span>
+              <span className="text-xl font-semibold text-white">Auto Insurance Claims GPT</span>
             </div>
             <p className="text-insurance-300 mb-2">
               AI-powered insurance claim assessments with unmatched accuracy and professionalism.
