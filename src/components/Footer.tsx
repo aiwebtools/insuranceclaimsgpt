@@ -1,4 +1,3 @@
-
 import { Instagram, Shield, Car, Heart, FileText } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
@@ -64,7 +63,6 @@ const Footer = () => {
                 <FileText className="h-4 w-4" />
                 Medical Billing & Coding GPT
               </a></li>
-              <li><a href="https://chatgpt.com/g/g-ols85Scif-insurance-claims-gpt" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">Insurance Negotiations</a></li>
             </ul>
           </div>
 
