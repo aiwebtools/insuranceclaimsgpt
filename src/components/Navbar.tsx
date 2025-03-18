@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Shield, Car, Heart } from 'lucide-react';
+import { Menu, X, Shield, Car, Heart, FileText } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -43,7 +43,15 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 transition-colors">More AI Tools</a>
             <a href="#how-it-works" className="text-purple-300 hover:text-purple-400 transition-colors">How It Works</a>
-            <a href="#services" className="text-purple-300 hover:text-purple-400 transition-colors">Services</a>
+            <a 
+              href="https://chatgpt.com/g/g-67d9f1b2c9b881918c0fac1ca6ea38ea-medical-billing-coding-gpt" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-purple-300 hover:text-purple-400 transition-colors flex items-center gap-1"
+            >
+              <FileText className="h-4 w-4" />
+              Medical Billing & Coding GPT
+            </a>
             <a 
               href="https://automobilegpt.lovable.app/" 
               target="_blank" 
@@ -102,11 +110,14 @@ const Navbar = () => {
               How It Works
             </a>
             <a 
-              href="#services" 
-              className="text-purple-300 hover:text-purple-400 transition-colors py-2"
+              href="https://chatgpt.com/g/g-67d9f1b2c9b881918c0fac1ca6ea38ea-medical-billing-coding-gpt" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-purple-300 hover:text-purple-400 transition-colors py-2 flex items-center gap-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Services
+              <FileText className="h-4 w-4" />
+              Medical Billing & Coding GPT
             </a>
             <a 
               href="https://automobilegpt.lovable.app/" 
