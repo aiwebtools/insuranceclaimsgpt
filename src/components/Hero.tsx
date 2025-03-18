@@ -72,7 +72,7 @@ const Hero = () => {
                 </div>
               </div>
               <p className="text-purple-300 text-xs md:text-sm">
-                <span className="font-medium">5,000+</span> claims processed this month
+                <span className="font-medium">5,000+</span> active users
               </p>
             </div>
           </div>
