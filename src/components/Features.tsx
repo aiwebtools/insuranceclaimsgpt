@@ -43,7 +43,7 @@ const Features = () => {
           <div className="relative pb-[56.25%] h-0 rounded-xl overflow-hidden shadow-lg">
             <iframe 
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/KxELTw8BAj4?autoplay=1&hd=1&vq=hd1080" 
+              src="https://www.youtube.com/embed/WNPywJWOUzU?autoplay=1&hd=1&vq=hd1080" 
               title="Insurance Claims GPT Demo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
