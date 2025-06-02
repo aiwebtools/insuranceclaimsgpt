@@ -79,6 +79,21 @@ const Index = () => {
         <FAQ />
         <CTA />
         <RecommendationCard />
+        
+        {/* Disclaimer Section */}
+        <section className="bg-gray-900 py-8 border-t border-gray-800">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center">
+              <p className="text-gray-400 text-sm max-w-4xl mx-auto">
+                <strong>Disclaimer:</strong> This tool is provided for informational, educational, and research purposes only. 
+                The assessments and estimates generated are not official insurance evaluations and should not be used as the 
+                sole basis for insurance claims or legal decisions. Always consult with qualified insurance professionals, 
+                adjusters, and legal advisors for official claim processing and legal matters.
+              </p>
+            </div>
+          </div>
+        </section>
+        
         <Footer />
       </div>
       <FloatingBubble />

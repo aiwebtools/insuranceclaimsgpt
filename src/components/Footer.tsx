@@ -131,10 +131,10 @@ const Footer = () => {
             <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
               Privacy Policy
             </a>
-            <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
+            <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
               Terms of Service
             </a>
-            <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
+            <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-insurance-400 hover:text-white transition-colors">
               Disclaimer
             </a>
           </div>
