@@ -1,3 +1,4 @@
+
 import { ArrowRight, FileImage, Search, Shield } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
@@ -9,15 +10,19 @@ const Hero = () => {
           <div className="md:w-1/2 space-y-5 md:space-y-6 pb-8 md:pb-0">
             <div className="inline-flex items-center rounded-full bg-purple-950/50 px-3 py-1 md:px-4 md:py-1.5 text-xs md:text-sm font-medium text-purple-300 mb-3 md:mb-4 animate-fade-in">
               <Shield className="mr-1 h-3 w-3 md:h-4 md:w-4" />
-              <span>AI-Powered Insurance Claims Tools Suite</span>
+              <span>Free AI Tools by AIWEBTOOLS.AI</span>
             </div>
             
             <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-purple-200 tracking-tight animate-fade-in-up [animation-delay:100ms]">
-              Expert Insurance Claim Assessments
+              Free AI Tools for Insurance Claims
             </h1>
             
+            <h2 className="text-xl md:text-2xl font-semibold text-purple-300 animate-fade-in-up [animation-delay:150ms]">
+              Expert AI-Powered Claim Assessments by AIWEBTOOLS.AI
+            </h2>
+            
             <p className="text-base md:text-xl text-purple-300 leading-relaxed max-w-xl animate-fade-in-up [animation-delay:200ms]">
-              Get fair and accurate insurance claim valuations backed by AI-powered analysis, real-time pricing data, and professional reports.
+              Get fair and accurate insurance claim valuations with our free AI tools. Powered by advanced AI technology for real-time pricing data and professional reports.
             </p>
             
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-2 md:pt-4 animate-fade-in-up [animation-delay:300ms]">
@@ -26,15 +31,16 @@ const Hero = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
+                aria-label="Access free AI insurance claims assessment tool"
               >
                 <Button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-700 hover:to-purple-700 text-white text-sm md:text-base w-full sm:w-auto flex items-center justify-center space-x-2">
-                  <span>Get Your Damage Claim Estimate</span>
+                  <span>Get Your Free AI Claim Estimate</span>
                   <ArrowRight className="h-4 w-4 md:h-5 md:w-5 ml-1" />
                 </Button>
               </a>
               <a href="#how-it-works" className="w-full sm:w-auto">
                 <Button className="bg-gray-800 hover:bg-gray-700 text-purple-300 text-sm md:text-base w-full">
-                  Learn More
+                  Learn About Our AI Tools
                 </Button>
               </a>
             </div>
@@ -44,34 +50,34 @@ const Hero = () => {
                 <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
                   <img 
                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&w=256&q=80" 
-                    alt="User avatar" 
+                    alt="User avatar - satisfied customer using free AI tools" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
                   <img 
                     src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&w=256&q=80" 
-                    alt="User avatar" 
+                    alt="User avatar - professional using AI insurance tools" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
                   <img 
                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&w=256&q=80" 
-                    alt="User avatar" 
+                    alt="User avatar - claim adjuster using AIWEBTOOLS.AI" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="w-6 h-6 md:w-8 md:h-8 rounded-full overflow-hidden border border-purple-400/30">
                   <img 
                     src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&w=256&q=80" 
-                    alt="User avatar" 
+                    alt="User avatar - insurance professional using free AI tools" 
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
               <p className="text-purple-300 text-xs md:text-sm">
-                <span className="font-medium">5,000+</span> active users
+                <span className="font-medium">5,000+</span> professionals using our free AI tools
               </p>
             </div>
           </div>
@@ -84,7 +90,7 @@ const Hero = () => {
               
               <div className="flex items-center space-x-2 md:space-x-3 mb-4 md:mb-6">
                 <Shield className="h-5 w-5 md:h-6 md:w-6 text-insurance-600" />
-                <h3 className="text-base md:text-lg font-semibold text-insurance-950">Insurance Claims Assessment</h3>
+                <h3 className="text-base md:text-lg font-semibold text-insurance-950">Free AI Insurance Claims Tool</h3>
               </div>
               
               <div className="space-y-4 md:space-y-6">
@@ -92,7 +98,7 @@ const Hero = () => {
                   <FileImage className="h-5 w-5 md:h-6 md:w-6 text-insurance-700" />
                   <div>
                     <p className="text-xs md:text-sm font-medium text-insurance-800">Upload damage photos</p>
-                    <p className="text-xs text-insurance-600 hidden sm:block">Add images for AI assessment</p>
+                    <p className="text-xs text-insurance-600 hidden sm:block">Free AI analysis in seconds</p>
                   </div>
                 </div>
                 
@@ -123,9 +129,10 @@ const Hero = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-full"
+                  aria-label="Generate free AI insurance claim report"
                 >
                   <Button className="button-primary w-full text-sm md:text-base">
-                    Generate Claim Report
+                    Generate Free AI Report
                   </Button>
                 </a>
               </div>
