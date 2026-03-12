@@ -36,7 +36,7 @@ const Footer = () => {
               AI-powered insurance claim assessments with unmatched accuracy and professionalism.
             </p>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-insurance-400 hover:text-white transition-colors mb-6 inline-block"
