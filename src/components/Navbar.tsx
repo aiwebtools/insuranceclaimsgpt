@@ -94,7 +94,7 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-gray-950 shadow-lg p-4 border-t border-gray-800 animate-fade-in-up">
           <nav className="flex flex-col space-y-4">
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-purple-300 hover:text-purple-400 transition-colors py-2"
