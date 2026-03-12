@@ -30,7 +30,7 @@ const Navbar = () => {
               <span className="text-xl font-semibold text-purple-300">Insurance Claims GPT</span>
             </div>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-xs text-purple-400 mt-0.5 hover:text-purple-300 transition-colors"
