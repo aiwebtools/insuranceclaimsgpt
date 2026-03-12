@@ -41,7 +41,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 transition-colors">More AI Tools</a>
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 transition-colors">More AI Tools</a>
             <a href="#how-it-works" className="text-purple-300 hover:text-purple-400 transition-colors">How It Works</a>
             <a 
               href="https://medicalbillinggpt.lovable.app/?via=aiwebtools" 
