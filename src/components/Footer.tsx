@@ -69,7 +69,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">More AI Tools</a></li>
+              <li><a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors">More AI Tools</a></li>
               <li><a href="#how-it-works" className="text-insurance-300 hover:text-white transition-colors">How It Works</a></li>
               <li><a href="#testimonials" className="text-insurance-300 hover:text-white transition-colors">Testimonials</a></li>
               <li><a href="https://automobilegpt.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-insurance-300 hover:text-white transition-colors flex items-center gap-2">
